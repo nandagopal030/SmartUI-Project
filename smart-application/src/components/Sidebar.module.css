@@ -1,0 +1,76 @@
+/* Sidebar.module.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #0077a3;
+  color: white;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  z-index: 998;
+  padding-top: 60px;
+}
+
+.open {
+  width: 240px;
+}
+
+.closed {
+  width: 60px;
+}
+
+/* Burger icon */
+.menuIcon {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+  cursor: pointer;
+  font-size: 22px;
+  background-color: #0077a3;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.menuIcon:hover {
+  background-color: #005f80;
+}
+
+/* Menu list */
+.menuList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 18px 20px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background-color: white;
+  color: #0077a3;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: white;
+}
+
+.label {
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+.cursor{
+    cursor: pointer;
+    
+}
