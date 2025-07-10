@@ -1,0 +1,16 @@
+{
+    "users":[
+        {
+            "name":"pri",
+            "age":12
+        },
+         {
+            "name":"ini",
+            "age":12
+        },
+         {
+            "name":"Kamu",
+            "age":12
+        }
+    ]
+}

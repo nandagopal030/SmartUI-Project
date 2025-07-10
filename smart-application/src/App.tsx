@@ -1,14 +1,16 @@
-
+import data from './data.json';
 import './App.css'
 
 function App() {
-
+ 
 
   return (
     <>
-      <h1>Nanda Edited files</h1>
-      <h2>Hello from nanda</h2>
-      <h3>Commit 3 from nanda</h3>
+     {
+      data.users.map((user=>(
+       <h1>{user.name}</h1>
+      )))
+     }
     </>
   )
 }
